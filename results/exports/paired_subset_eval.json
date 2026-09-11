@@ -1,0 +1,209 @@
+{
+  "n_paired_test": 135,
+  "evals": {
+    "Rx_full_test": {
+      "data": "configs\\generated\\dbev_rgb.yaml",
+      "weights": "runs\\detect\\train_rgb_full\\weights\\best.pt",
+      "split": "test",
+      "device": 0,
+      "imgsz": 640,
+      "batch": 8,
+      "metrics": {
+        "mAP50": 0.9641283933877368,
+        "mAP50-95": 0.6794601116924898,
+        "mAP75": 0.7464695805425572,
+        "precision_mean": 0.9377471363895912,
+        "recall_mean": 0.9353905496624879,
+        "f1_mean": 0.9365673606195628,
+        "accuracy_mean": 0.9365688430260395,
+        "nc": 1,
+        "per_class_map50-95": [
+          0.6794601116924898
+        ]
+      },
+      "results_dict": {
+        "metrics/precision(B)": 0.9377471363895912,
+        "metrics/recall(B)": 0.9353905496624879,
+        "metrics/mAP50(B)": 0.9641283933877368,
+        "metrics/mAP50-95(B)": 0.6794601116924898,
+        "fitness": 0.6794601116924898
+      },
+      "speed_ms_per_image": {
+        "preprocess": 0.844760680454259,
+        "inference": 2.291017909650283,
+        "loss": 0.0011371685077378962,
+        "postprocess": 0.895818809744785
+      }
+    },
+    "Rx_paired135_test": {
+      "data": "configs\\generated\\dbev_rgb_paired_test135.yaml",
+      "weights": "runs\\detect\\train_rgb_full\\weights\\best.pt",
+      "split": "test",
+      "device": 0,
+      "imgsz": 640,
+      "batch": 8,
+      "metrics": {
+        "mAP50": 0.9600264336236136,
+        "mAP50-95": 0.7036261907122046,
+        "mAP75": 0.8055938127330835,
+        "precision_mean": 0.9110634821449698,
+        "recall_mean": 0.917910447761194,
+        "f1_mean": 0.9144741487671286,
+        "accuracy_mean": 0.9144869649530819,
+        "nc": 1,
+        "per_class_map50-95": [
+          0.7036261907122046
+        ]
+      },
+      "results_dict": {
+        "metrics/precision(B)": 0.9110634821449698,
+        "metrics/recall(B)": 0.917910447761194,
+        "metrics/mAP50(B)": 0.9600264336236136,
+        "metrics/mAP50-95(B)": 0.7036261907122046,
+        "fitness": 0.7036261907122046
+      },
+      "speed_ms_per_image": {
+        "preprocess": 1.007503704857771,
+        "inference": 4.953601482082847,
+        "loss": 0.0009414826140359596,
+        "postprocess": 1.0046059257109408
+      }
+    },
+    "Rc_original_full_test": {
+      "data": "configs\\generated\\dbev_rgb.yaml",
+      "weights": "runs\\detect\\train_rgb_paired_correct\\weights\\best.pt",
+      "split": "test",
+      "device": 0,
+      "imgsz": 640,
+      "batch": 8,
+      "metrics": {
+        "mAP50": 0.8420516748815674,
+        "mAP50-95": 0.5023648395673499,
+        "mAP75": 0.5145877368570819,
+        "precision_mean": 0.825850765968515,
+        "recall_mean": 0.7892960462873674,
+        "f1_mean": 0.8071597448055022,
+        "accuracy_mean": 0.8075734061279412,
+        "nc": 1,
+        "per_class_map50-95": [
+          0.5023648395673499
+        ]
+      },
+      "results_dict": {
+        "metrics/precision(B)": 0.825850765968515,
+        "metrics/recall(B)": 0.7892960462873674,
+        "metrics/mAP50(B)": 0.8420516748815674,
+        "metrics/mAP50-95(B)": 0.5023648395673499,
+        "fitness": 0.5023648395673499
+      },
+      "speed_ms_per_image": {
+        "preprocess": 0.8601201109992542,
+        "inference": 2.2343860437377,
+        "loss": 0.0014293148835050338,
+        "postprocess": 0.8854497244009462
+      }
+    },
+    "Rc_original_paired135_test": {
+      "data": "configs\\generated\\dbev_rgb_paired_test135.yaml",
+      "weights": "runs\\detect\\train_rgb_paired_correct\\weights\\best.pt",
+      "split": "test",
+      "device": 0,
+      "imgsz": 640,
+      "batch": 8,
+      "metrics": {
+        "mAP50": 0.926452783961322,
+        "mAP50-95": 0.6495519796004297,
+        "mAP75": 0.7758002268517498,
+        "precision_mean": 0.8692679833170159,
+        "recall_mean": 0.8805970149253731,
+        "f1_mean": 0.8748958257323726,
+        "accuracy_mean": 0.8749324991211945,
+        "nc": 1,
+        "per_class_map50-95": [
+          0.6495519796004297
+        ]
+      },
+      "results_dict": {
+        "metrics/precision(B)": 0.8692679833170159,
+        "metrics/recall(B)": 0.8805970149253731,
+        "metrics/mAP50(B)": 0.926452783961322,
+        "metrics/mAP50-95(B)": 0.6495519796004297,
+        "fitness": 0.6495519796004297
+      },
+      "speed_ms_per_image": {
+        "preprocess": 1.0284385195484866,
+        "inference": 4.222825925831717,
+        "loss": 0.0011118508323475166,
+        "postprocess": 1.0863488876364296
+      }
+    },
+    "Rc_matched_seed42_full_test": {
+      "data": "configs\\generated\\dbev_rgb.yaml",
+      "weights": "runs\\detect\\matched_rc_seed42\\weights\\best.pt",
+      "split": "test",
+      "device": 0,
+      "imgsz": 640,
+      "batch": 8,
+      "metrics": {
+        "mAP50": 0.8484926265595226,
+        "mAP50-95": 0.5057152278129984,
+        "mAP75": 0.5186103063735903,
+        "precision_mean": 0.8322745890010405,
+        "recall_mean": 0.7753134040501446,
+        "f1_mean": 0.8027848522029674,
+        "accuracy_mean": 0.8037939965255925,
+        "nc": 1,
+        "per_class_map50-95": [
+          0.5057152278129984
+        ]
+      },
+      "results_dict": {
+        "metrics/precision(B)": 0.8322745890010405,
+        "metrics/recall(B)": 0.7753134040501446,
+        "metrics/mAP50(B)": 0.8484926265595226,
+        "metrics/mAP50-95(B)": 0.5057152278129984,
+        "fitness": 0.5057152278129984
+      },
+      "speed_ms_per_image": {
+        "preprocess": 0.8246051029941853,
+        "inference": 2.222868433888869,
+        "loss": 0.001127363705337644,
+        "postprocess": 0.8870087045218316
+      }
+    },
+    "Rc_matched_seed42_paired135_test": {
+      "data": "configs\\generated\\dbev_rgb_paired_test135.yaml",
+      "weights": "runs\\detect\\matched_rc_seed42\\weights\\best.pt",
+      "split": "test",
+      "device": 0,
+      "imgsz": 640,
+      "batch": 8,
+      "metrics": {
+        "mAP50": 0.9209012426730613,
+        "mAP50-95": 0.6518043375445901,
+        "mAP75": 0.75776517653354,
+        "precision_mean": 0.9052054230349065,
+        "recall_mean": 0.8731343283582089,
+        "f1_mean": 0.8888806859861175,
+        "accuracy_mean": 0.8891698756965577,
+        "nc": 1,
+        "per_class_map50-95": [
+          0.6518043375445901
+        ]
+      },
+      "results_dict": {
+        "metrics/precision(B)": 0.9052054230349065,
+        "metrics/recall(B)": 0.8731343283582089,
+        "metrics/mAP50(B)": 0.9209012426730613,
+        "metrics/mAP50-95(B)": 0.6518043375445901,
+        "fitness": 0.6518043375445901
+      },
+      "speed_ms_per_image": {
+        "preprocess": 1.421699259016249,
+        "inference": 3.9722637023293856,
+        "loss": 0.0008925924905472331,
+        "postprocess": 0.7006422202620242
+      }
+    }
+  }
+}

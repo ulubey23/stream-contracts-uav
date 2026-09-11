@@ -1,0 +1,6 @@
+train: <LOCAL_PATH>
+val: <DBEV_RGB_ROOT>
+test: <DBEV_RGB_ROOT>
+nc: 1
+names:
+- drone

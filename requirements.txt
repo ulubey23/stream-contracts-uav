@@ -1,0 +1,9 @@
+# UAV detection experiments (YOLOv8/YOLO11 + DBEV-UAV). YOLO11 weights require Ultralytics >= 8.3 (tested with 8.4.x).
+ultralytics>=8.3.0
+opencv-python>=4.8.0
+numpy>=1.23.0,<2
+PyYAML>=6.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+torch>=2.0.0
+torchvision>=0.15.0

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+runs/
+*.pt
+*.pth
+*.onnx
+data/external/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.zip

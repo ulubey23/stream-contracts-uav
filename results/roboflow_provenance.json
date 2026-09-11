@@ -1,0 +1,27 @@
+{
+  "tutorial_v2i": {
+    "export_name": "Drone Detection -Tutorial Dataset-.v2i.coco",
+    "yolo_dir": "data/external/roboflow_drone_tutorial_v2_yolo",
+    "splits": {
+      "train": 694,
+      "valid": 198,
+      "test": 99
+    },
+    "class_mapping": "all COCO categories -> drone (nc=1)",
+    "stem_overlap_with_dbev_rgb": 0
+  },
+  "drone_detection_v6i": {
+    "export_name": "Drone Detection.v6i.coco",
+    "yolo_dir": "data/external/roboflow_drone_v6_yolo",
+    "splits": {
+      "train": 6979,
+      "valid": 1994,
+      "test": 999
+    },
+    "class_mapping": "all COCO categories -> drone (nc=1)",
+    "stem_overlap_with_dbev_rgb": 9972,
+    "stem_total": 9972,
+    "split_alignment": "v6i.train subset dbev.train; valid subset valid; test subset test",
+    "interpretation": "NOT independent OOD; subset/export consistency with DBEV-UAV RGB"
+  }
+}

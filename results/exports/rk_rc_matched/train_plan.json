@@ -1,0 +1,41 @@
+[
+  {
+    "contract": "Rc",
+    "name": "matched_rc_seed42",
+    "data": "configs\\generated\\dbev_rgb_paired_strict.yaml",
+    "seed": 42
+  },
+  {
+    "contract": "Rc",
+    "name": "matched_rc_seed43",
+    "data": "configs\\generated\\dbev_rgb_paired_strict.yaml",
+    "seed": 43
+  },
+  {
+    "contract": "Rc",
+    "name": "matched_rc_seed44",
+    "data": "configs\\generated\\dbev_rgb_paired_strict.yaml",
+    "seed": 44
+  },
+  {
+    "contract": "Rk",
+    "name": "matched_rk_s42_t42",
+    "data": "configs\\generated\\dbev_rgb_train2070_control_seed42.yaml",
+    "sample_seed": 42,
+    "seed": 42
+  },
+  {
+    "contract": "Rk",
+    "name": "matched_rk_s43_t43",
+    "data": "configs\\generated\\dbev_rgb_train2070_control_seed43.yaml",
+    "sample_seed": 43,
+    "seed": 43
+  },
+  {
+    "contract": "Rk",
+    "name": "matched_rk_s44_t44",
+    "data": "configs\\generated\\dbev_rgb_train2070_control_seed44.yaml",
+    "sample_seed": 44,
+    "seed": 44
+  }
+]

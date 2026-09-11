@@ -1,0 +1,34 @@
+{
+  "data": "configs\\generated\\dbev_rgb.yaml",
+  "weights": "runs\\detect\\train_rgb_paired_correct\\weights\\best.pt",
+  "split": "val",
+  "device": 0,
+  "imgsz": 640,
+  "batch": 8,
+  "metrics": {
+    "mAP50": 0.844215037945091,
+    "mAP50-95": 0.5089884335624095,
+    "mAP75": 0.5307756996325568,
+    "precision_mean": 0.8305374628683171,
+    "recall_mean": 0.7888726919339164,
+    "f1_mean": 0.8091690942428394,
+    "accuracy_mean": 0.8097050774011167,
+    "nc": 1,
+    "per_class_map50-95": [
+      0.5089884335624095
+    ]
+  },
+  "results_dict": {
+    "metrics/precision(B)": 0.8305374628683171,
+    "metrics/recall(B)": 0.7888726919339164,
+    "metrics/mAP50(B)": 0.844215037945091,
+    "metrics/mAP50-95(B)": 0.5089884335624095,
+    "fitness": 0.5089884335624095
+  },
+  "speed_ms_per_image": {
+    "preprocess": 0.8773764397011129,
+    "inference": 2.458166324611171,
+    "loss": 0.0012795942831778891,
+    "postprocess": 0.9809513520073979
+  }
+}

@@ -1,0 +1,14 @@
+Pairing audit summary
+RGB root: <DBEV_RGB_ROOT>
+Depth root: <DBEV_DEPTH_ROOT>
+
+[train] depth=4690 rgb=13979 matched=2389 cov=0.509 multi_id=1253 collisions=973 size_fail=104
+[valid] depth=671 rgb=3994 matched=127 cov=0.189 multi_id=33 collisions=22 size_fail=26
+[test] depth=1340 rgb=1999 matched=145 cov=0.108 multi_id=22 collisions=8 size_fail=35
+
+Cross-split depth ID overlap:
+  train_vs_valid: 0
+  train_vs_test: 0
+  valid_vs_test: 0
+
+Pixel corr proxy (test, n=40): mean=-0.0008645369779275349 std=0.04071051749181305

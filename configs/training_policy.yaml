@@ -1,0 +1,14 @@
+# Default Ultralytics training settings used by the matched-budget protocol.
+# Primary Rc/Rk runs use max_epochs=100 and patience=100.
+# The values below are defaults for helper scripts; override on the command line as needed.
+
+max_epochs: 100
+patience: 100
+batch: 8
+workers: 4
+imgsz: 640
+seed: 42
+model: yolov8n.pt
+device: auto
+
+# Extra metrics or PR curves without retraining: scripts/eval_checkpoint.py on best.pt

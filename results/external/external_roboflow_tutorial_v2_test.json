@@ -1,0 +1,19 @@
+{
+  "tag": "tutorial_v2",
+  "weights": "runs\\detect\\train_rgb_full\\weights\\best.pt",
+  "data": "data\\external\\roboflow_drone_tutorial_v2_yolo\\dataset.yaml",
+  "split": "test",
+  "metrics": {
+    "mAP50": 0.2858770656665357,
+    "mAP50-95": 0.06263767391973515,
+    "mAP75": 0.0005729825449026056,
+    "precision_mean": 0.4393080264678428,
+    "recall_mean": 0.3434343434343434,
+    "f1_mean": 0.3854996725271984,
+    "accuracy_mean": 0.39137118495109313,
+    "nc": 1,
+    "per_class_map50-95": [
+      0.06263767391973515
+    ]
+  }
+}

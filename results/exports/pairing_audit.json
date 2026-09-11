@@ -1,0 +1,186 @@
+{
+  "rgb_root": "<DBEV_RGB_ROOT>",
+  "depth_root": "<DBEV_DEPTH_ROOT>",
+  "splits": {
+    "train": {
+      "split": "train",
+      "n_rgb": 13979,
+      "n_depth": 4690,
+      "unique_depth_ids": 4690,
+      "duplicate_depth_id_rows": 0,
+      "matched_same_size": 2389,
+      "coverage": 0.5093816631130064,
+      "multi_candidate_same_id": 1253,
+      "same_id_but_size_mismatch": 104,
+      "collisions_multiple_same_size": 973,
+      "lexicographic_selection_events": 973,
+      "matched_rgb_with_long_stem_suffix": 2389,
+      "pairs_sample": [
+        {
+          "id": 10,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 11,
+          "n_same_size": 9
+        },
+        {
+          "id": 100,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 7,
+          "n_same_size": 5
+        },
+        {
+          "id": 1000,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 8,
+          "n_same_size": 5
+        },
+        {
+          "id": 1001,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 2,
+          "n_same_size": 1
+        },
+        {
+          "id": 1002,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 1,
+          "n_same_size": 1
+        }
+      ]
+    },
+    "valid": {
+      "split": "valid",
+      "n_rgb": 3994,
+      "n_depth": 671,
+      "unique_depth_ids": 671,
+      "duplicate_depth_id_rows": 0,
+      "matched_same_size": 127,
+      "coverage": 0.18926974664679583,
+      "multi_candidate_same_id": 33,
+      "same_id_but_size_mismatch": 26,
+      "collisions_multiple_same_size": 22,
+      "lexicographic_selection_events": 22,
+      "matched_rgb_with_long_stem_suffix": 127,
+      "pairs_sample": [
+        {
+          "id": 1025,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 1,
+          "n_same_size": 1
+        },
+        {
+          "id": 103,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 1,
+          "n_same_size": 1
+        },
+        {
+          "id": 1050,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 1,
+          "n_same_size": 1
+        },
+        {
+          "id": 1053,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 1,
+          "n_same_size": 1
+        },
+        {
+          "id": 1075,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 1,
+          "n_same_size": 1
+        }
+      ]
+    },
+    "test": {
+      "split": "test",
+      "n_rgb": 1999,
+      "n_depth": 1340,
+      "unique_depth_ids": 1340,
+      "duplicate_depth_id_rows": 0,
+      "matched_same_size": 145,
+      "coverage": 0.10820895522388059,
+      "multi_candidate_same_id": 22,
+      "same_id_but_size_mismatch": 35,
+      "collisions_multiple_same_size": 8,
+      "lexicographic_selection_events": 8,
+      "matched_rgb_with_long_stem_suffix": 145,
+      "pairs_sample": [
+        {
+          "id": 1,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 117,
+          "n_same_size": 79
+        },
+        {
+          "id": 1008,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 1,
+          "n_same_size": 1
+        },
+        {
+          "id": 1015,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 1,
+          "n_same_size": 1
+        },
+        {
+          "id": 1020,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 1,
+          "n_same_size": 1
+        },
+        {
+          "id": 1031,
+          "depth": "<DBEV_DEPTH_ROOT>",
+          "rgb": "<DBEV_RGB_ROOT>",
+          "n_rgb_same_id": 1,
+          "n_same_size": 1
+        }
+      ]
+    }
+  },
+  "cross_split_depth_id_overlap": {
+    "train_vs_valid": {
+      "n_overlap_ids": 0,
+      "overlap_ids_sample": []
+    },
+    "train_vs_test": {
+      "n_overlap_ids": 0,
+      "overlap_ids_sample": []
+    },
+    "valid_vs_test": {
+      "n_overlap_ids": 0,
+      "overlap_ids_sample": []
+    }
+  },
+  "pixel_correlation_proxy_test": {
+    "n": 40,
+    "mean_corr": -0.0008645369779275349,
+    "std_corr": 0.04071051749181305,
+    "min_corr": -0.13370993306976345,
+    "max_corr": 0.07948642417046177,
+    "note": "Proxy only: grayscale 64x64 correlation; not a geometric registration error."
+  },
+  "terminology": {
+    "pairing_rule": "identity token + equal (W,H) + lexicographic RGB selection",
+    "establishes": "filename/identity-level correspondence within a split",
+    "does_not_guarantee": "pixel-level geometric registration after RGB augmentation"
+  }
+}
