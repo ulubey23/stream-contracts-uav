@@ -1,13 +1,16 @@
 # Stream Contracts (RGB-Depth UAV Detection)
 
-Training and evaluation scripts, YOLO dataset YAML templates, pairing utilities,
-and frozen JSON metric exports for RGB–depth UAV stream-contract experiments.
+Code and supplementary experimental resources for:
+
+**Stream Contracts: An Auditable and Reproducible Evaluation Framework for RGB–Depth UAV Detection**
+
+This repository contains the scripts, configuration files, and evaluation results used in the RGB–depth UAV detection experiments reported in the paper.
 
 ## Contents
 
 - `scripts/` - training, evaluation, pairing audit, matched Rc/Rk runs
 - `configs/` - Ultralytics dataset YAML files (paths are placeholders; edit locally)
-- `results/exports/` - pairing audit and matched-run aggregates
+- `results/exports/` - pairing audit and matched-run evaluation outputs
 - `results/external/` - zero-shot scores on the named Roboflow exports
 - `requirements.txt` - Python dependencies
 
@@ -55,6 +58,6 @@ python scripts/run_matched_pipeline.py --skip-train
 
 More detail on converting Roboflow COCO exports: `README_ROBOFLOW_COCO.txt`.
 
-## License
+## Citation
 
-Code and exports in this repository are provided for research use.
+Please cite the associated IEEE Access article when available.
